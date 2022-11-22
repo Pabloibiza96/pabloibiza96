@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos(Tags)</title>
+    <link rel="stylesheet" href="./resources/index.css">
+</head>
+<body>
+   <h1 id="title">Tags para usar en CSS</h1>
+    <table>
+        <div>
+            <thead id="encabezado">
+            <tr>
+                <th>Tag</th>
+                <th>Función</th>
+                <th>Sintaxis</th>
+                <th>Enlace</th>
+            </tr>
+            </thead>
+        </div>
+
+        <div id="fila1">
+            <tr>
+                <th id="Tag">&lt;a&gt;</th>
+                <th id="Función">
+                    <p>Crea un enlace a otra página o a una ubicación en la página actual.</p>
+                </th>
+                <th id="Sintaxis">&lt;a&gt; href="url">Displayed Text &lt;/a&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/a">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila2">
+            <tr>
+                <th id="Tag">&lt;abbr&gt;</th>
+                <th id="Función">
+                    <p>Indica un acrónimo o abreviatura de una palabra o frase más larga.</p>
+                </th>
+                <th id="Sintaxis">&lt;abbr title=""&gt;The acronym or abbreviation here
+                    &lt;/abbr&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/abbr">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila3">
+            <tr>
+                <th id="Tag">&lt;acronym&gt;</th>
+                <th id="Función">
+                    <p>Crea texto que se mostrará cuando se pase el cursor sobre él.</p>
+                </th>
+                <th id="Sintaxis">&lt;acronym title=" "" &gt; Acrónimo &lt;/acronym &gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/acronym">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila4">
+            <tr>
+                <th id="Tag">&lt;applet&gt;</th>
+                <th id="Función">
+                    <p>Se utiliza para incrustar applets Java en documentos HTML, pero ya no es compatible.</p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/applet">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila5">
+            <tr>
+                <th id="Tag">&lt;audio&gt;</th>
+                <th id="Función">
+                    <p>Representa una interfaz para añadir contenido de audio a la página.</p>
+                </th>
+                <th id="Sintaxis">&lt;audio controls &gt; &lt;/audio&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/audio">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila6">
+            <tr>
+                <th id="Tag">&lt;b&gt;</th>
+                <th id="Función">
+                    <p>Se utiliza para llamar la atención sobre una sección de texto, generalmente representada en negrita.</p>
+                </th>
+                <th id="Sintaxis">&lt;b&gt; Texto &lt;/b&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/b">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila7">
+            <tr>
+                <th id="Tag">&lt;basefont&gt;</th>
+                <th id="Función">
+                    <p>
+                        Se usaba para establecer la fuente del texto. Esto ahora está obsoleto.
+                    </p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/basefont">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila8">
+            <tr>
+                <th id="Tag">&lt;blink&gt;</th>
+                <th id="Función">
+                    <p>Se utiliza para encender y desactivar el texto y ahora es obsoleto, obsoleto y no estándar.</p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/blink">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila9">
+            <tr>
+                <th id="Tag">&lt;blockquote&gt;</th>
+                <th id="Función">
+                    <p>Representa una sección de un documento que contiene una cita más larga, que suele abarcar varias líneas.</p>
+                </th>
+                <th id="Sintaxis">&lt;blockquote cite="citation url"&gt;blockquote&lt;/&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/blockquote">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila10">
+            <tr>
+                <th id="Tag">&lt;br&gt;</th>
+                <th id="Función">
+                    <p>Representa un salto en el texto. Se utiliza cuando el texto necesita abarcar varias líneas en lugar de estar en línea, como en una dirección.</p>
+                </th>
+                <th id="Sintaxis">&lt;br&gt;Texto &lt;/br&gt;</th>
+                <th><a href="https://www.codecademy.com/resources/docs/html/elements/br">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila11">
+            <tr>
+                <th id="Tag">&lt;button&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila12">
+            <tr>
+                <th id="Tag">&lt;canvas&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila13">
+            <tr>
+                <th id="Tag">&lt;center&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila14">
+            <tr>
+                <th id="Tag">&lt;cite&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila11">
+            <tr>
+                <th id="Tag">&lt;code&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila15">
+            <tr>
+                <th id="Tag">&lt;dd&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila16">
+            <tr>
+                <th id="Tag">&lt;del&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila17">
+            <tr>
+                <th id="Tag">&lt;div&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila18">
+            <tr>
+                <th id="Tag">&lt;dl&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila17">
+            <tr>
+                <th id="Tag">&lt;dt&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+        <div id="fila17">
+            <tr>
+                <th id="Tag">&lt;em&gt;</th>
+                <th id="Función">
+                    <p></p>
+                </th>
+                <th id="Sintaxis">&lt; &gt; &lt;/&gt;</th>
+                <th><a href="">Enlace</a></th>
+            </tr>
+        </div>
+
+
+    </table>
+</body>
+</html>
